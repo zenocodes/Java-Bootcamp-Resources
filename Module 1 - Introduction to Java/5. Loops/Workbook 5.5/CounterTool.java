@@ -9,6 +9,19 @@ public class CounterTool {
 
        // See detailed instructions on Learn the Part.
 
+       System.out.println("  1. Pick a number to count by: ");
+       int countBy = scan.nextInt();
+
+       System.out.println("2. Pick a number to start counting from: ");
+       int start = scan.nextInt();
+
+       System.out.println("Pick a number to count to: ");
+       int end = scan.nextInt();
+
+       for (int i = start; i <= end; i += countBy) {
+            System.out.print(i + " ");
+       }
+
         scan.close();
     }
 }

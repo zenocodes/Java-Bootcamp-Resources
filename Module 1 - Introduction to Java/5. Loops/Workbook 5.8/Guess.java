@@ -8,6 +8,18 @@ public class Guess  {
        Scanner scan = new Scanner(System.in);
        
        //See Learn the Part for detailed instructions.
+
+       int secretNumber = (int) Math.random() * 4 + 1;
+       int guess = scan.nextInt();
+
+       while (guess != secretNumber) {
+            System.out.println("Guess again: ");
+            guess = scan.nextInt();
+       }
+
+       System.out.println("You got it!");
+        
+
         
         scan.close();
     }
