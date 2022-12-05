@@ -6,6 +6,7 @@ public class Tip {
         System.out.println("Thank you!");
     
         //Task 2: Call a function that tips the waiter.
+        tipTheWaiter(bill);
     }
 
 
@@ -22,4 +23,8 @@ public class Tip {
      *  2. Prints: Your service was wonderful! Please, accept this tip: $<tip>
      */
 
+     public static void tipTheWaiter(double bill) {
+        double tip = bill * 0.15;
+        System.out.println("Your service was wonderful! Please, accept this tip: $" + tip);
+     }
 }
