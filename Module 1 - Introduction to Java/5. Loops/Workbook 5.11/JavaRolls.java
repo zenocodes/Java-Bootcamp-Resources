@@ -37,6 +37,8 @@ public class JavaRolls {
             System.out.println("Tough luck, you lose :(");
         }
 
+        scan.close();
+
     }
   
   
