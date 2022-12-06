@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Receipt {
     public static void main(String[] args) {
         String[] apples = {"Gala", "Granny Smith", "Macintosh"};
