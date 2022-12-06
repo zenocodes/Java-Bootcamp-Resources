@@ -1,7 +1,5 @@
 package sec_5;
 
-import javafx.scene.media.Media;
-
 public class WhileLoop {
     public static void main(String[] args) {
         double choice = 0.01;
