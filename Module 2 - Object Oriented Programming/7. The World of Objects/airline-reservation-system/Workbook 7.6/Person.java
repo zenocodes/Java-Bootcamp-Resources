@@ -13,6 +13,7 @@ public class Person {
         this.nationality = nationality;
         this.dateOfBirth = dateOfBirth;
         this.seatNumber = seatNumber;
+        this.passport = new String[3];
     }
 
     public Person(Person source) {
@@ -55,9 +56,13 @@ public class Person {
         this.seatNumber = seatNumber;
     }
 
-    public void setPassport() {
-
+    public void setPassport(String name, String nationality,String dateOfBirth) {
+        this.passport = new String[] {name, nationality, dateOfBirth};
     }
+
+    public String[] getPassport() {
+        return this.passport;
+    } 
 
     public boolean applyPassport() {
         int number = (int) (Math.random() * 2);

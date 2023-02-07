@@ -6,7 +6,7 @@ public class Main {
         person.name = "Guru Nayak";
         person.nationality = "Indian";
         person.dateOfBirth = "12-11-2000";
-        person.passport =new String[] {person.name, person.nationality, person.dateOfBirth};
+        person.passport = new String[] {person.name, person.nationality, person.dateOfBirth};
         person.seatNumber = 24;
 
         System.out.println(person.name);
