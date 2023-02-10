@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Store {
@@ -6,19 +7,22 @@ public class Store {
 
     public Store() {
         // TODO
+        this.movies = new ArrayList<>();
     }
 
     public Movie getMovie(int index) {
         // TODO
-        return null;
+        return new Movie(movies.get(index));
     }
 
     public void setMovie(int index, Movie movie) {
         // TODO
+        this.movies.set(index, new Movie(movie));
     }
 
     public void addMovie(Movie movie) {
         // TODO
+        this.movies.add(new Movie(movie));
     }
 
     public String toString() {
