@@ -9,6 +9,7 @@ public class Variables {
         System.out.println(busTickets);
 
         int maxValue = 2147483647;
+        System.out.println(maxValue);
 
     }
 }

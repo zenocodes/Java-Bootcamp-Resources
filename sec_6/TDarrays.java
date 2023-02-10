@@ -1,7 +1,5 @@
 package sec_6;
 
-import java.util.Arrays;
-
 public class TDarrays {
     public static void main(String[] args) {
         int[][] grades = {
